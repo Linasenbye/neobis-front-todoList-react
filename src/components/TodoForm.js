@@ -32,6 +32,7 @@ const TodoForm = ({ addTodo }) => {
                 </div>
                 <input type="submit" className="todo-btn" value="Add todo" />
             </form>
+            <h3 className="todo-title">TODO LIST</h3>
         </section>
     );
 };

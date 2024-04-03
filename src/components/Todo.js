@@ -40,7 +40,6 @@ const Todo = ({ todo, toggleTodo, editTodo, deleteTodo }) => {
                             type="text"
                             value={todo.task}
                             readOnly
-                            onClick={handleEdit}
                         />
                     )}
                 </div>

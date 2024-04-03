@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Todo = ({task}) => {
+const Todo = ({task, option}) => {
     return (
         <section className="todo-list">
             <div className="list" id="todo-list">
                 <div className="todo-item done">
                     <label>
                         <input type="checkbox"/>
-                        <span className="bubble business"></span>
+                        <span className={option.option}></span>
                     </label>
                     <div className="todo-content">
                         <input type="text" value={task.task} readOnly/>
